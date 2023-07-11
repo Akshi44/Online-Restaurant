@@ -1,0 +1,67 @@
+
+.nav_header {
+	display: flex;
+	flex-direction: row;
+	display: block;
+	justify-content: space-between;
+	padding: 200px 30px;
+	align-items: center;
+	background-color: black;
+}
+
+a {
+	margin-right: 30px;
+	text-decoration: inherit;
+	color: wheat;
+	font-size: 20px;
+}
+
+ a:hover {
+	text-decoration: underline;
+}
+
+.logoimg{
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	padding-right: 20px;
+	position: sticky;
+
+}
+.loginname{
+   margin-left: 600px;
+}
+
+.avatarimg{
+	height: 40px;
+	width: 40px;
+	margin-top: 1px;
+	padding-right: 6px;
+}
+
+h1{
+	color: wheat;
+	margin-left: 230px;
+	margin-top: 70px;
+}
+p{
+	border: 2px solid wheat;
+	width: 400px;
+	color: wheat;
+	margin-left: 180px;
+	padding: 10px;
+
+}
+.backgroundimage{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   top: 0px;
+   left: 0;
+   z-index: -1;
+}
+
+
+
+

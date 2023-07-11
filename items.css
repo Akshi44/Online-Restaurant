@@ -1,0 +1,79 @@
+
+.nav_header {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    justify-content: space-between;
+    padding: 200px 30px;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    margin-right: 30px;
+    text-decoration: inherit;
+    color: wheat;
+    font-size: 20px;
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+
+.logoimg{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    padding-right: 20px;
+    position: sticky;
+
+}
+.loginname{
+   margin-left: 600px;
+}
+
+.avatarimg{
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+    padding-right: 6px;
+   }
+.nav_title{
+    color: wheat;
+    padding-left: 100px;
+    
+}
+.backgroundimage{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   top: 0px;
+   left: 0;
+   z-index: -1;
+}
+.items{
+    width: 600px;
+}
+.box{
+    display: inline-block;
+    width: 250px;
+    margin-left: 40px;
+}
+.box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid wheat;
+} 
+.box h2{
+    color: wheat;
+    margin-left: 30px;
+}
+.box p{
+    color: wheat;
+    margin-left: 30px;
+}
+
+

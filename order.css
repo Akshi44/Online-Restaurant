@@ -1,0 +1,113 @@
+.nav_header {
+	display: flex;
+	flex-direction: row;
+	display: block;
+	justify-content: space-between;
+	padding: 200px 30px;
+	align-items: center;
+	background-color: black;
+}
+a {
+	margin-right: 30px;
+	text-decoration: inherit;
+	color: wheat;
+	font-size: 20px;
+}
+ a:hover {
+	text-decoration: underline;
+}
+.logoimg{
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	padding-right: 20px;
+	position: sticky;
+
+}
+.loginname{
+   margin-left: 600px;
+}
+.avatarimg{
+	height: 40px;
+	width: 40px;
+	margin-top: 1px;
+	padding-right: 6px;
+}
+.nav_title{
+	color: wheat;
+	padding-left: 100px;
+	
+}
+.backgroundimage{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   top: 0px;
+   left: 0;
+   z-index: -1;
+}
+.firstheading {
+	padding-top: 100px;
+	padding-left: 120px;
+	font-size: xxx-large;
+	font-family: 'Tilt Prism', cursive;
+	color: wheat;
+}
+.secondheading {
+   padding-left: 60px;
+	font-size: xxx-large;
+	font-family: 'Tilt Prism', cursive;
+	color: wheat;
+
+}
+
+
+.container {
+	display: inline-block;
+	padding-top: 40px;
+	color: wheat;
+	margin-left: 200px;
+}
+.container > h1{
+	padding-left: 60px;
+}
+h2{
+	color: wheat;
+}
+.form-group {
+	font-size: larger;
+	font-weight: bolder;
+	display: block;
+	width: 400px;
+	padding: 3px 3px;
+	font-size: 20px;
+	color: wheat;
+	/* padding: 10px; */
+}
+
+.form-group input {
+	border: 2px solid rgb(0, 0, 0);
+	margin: 5px 5px;
+	font-size: 15px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.container button {
+	width: 35%;
+	margin: 8px;
+} 
+.reset {
+	margin-left: 50px;
+	width: 300px;
+}
+h5{
+	color: rgb(231, 233, 132);
+	font-size: 20px;
+	margin-top: -0.1px;
+}
+.form-group option{
+	margin: 30px;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="order.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+	<title>DBMSP</title>
+</head>
+<body>
+</nav>
+	<div className="nav">
+		<div className="nav_header">
+		  <div className="nav_headerLeft">
+			<img  class="logoimg" src="./images/logo.jpg" alt="logo">
+			<a href="home.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="items.html">Items</a>
+			<a href="order.html">Order</a>
+			<a class="loginname" href="signin.html">Login</a>
+			<a href="signup.html">Signup</a>
+			<img class="avatarimg" src="./images/Avatar_3.jpg" alt="Avatar">
+		  </div>
+		</div>
+		<div class="container">
+			<h1>Make An Order </h1>
+			<form action="" method="post">
+				<div class="form-group">
+					Customer's Name:<input type="text" name="" placeholder="Enter Name">
+				</div>
+				<div class="form-group">
+					Customer's Id:<input type="text" name="" placeholder="Enter Id">
+				</div>
+				<div class="form-group">
+					Phone No.:<input type="number" name="phoneno." placeholder="Enter Phone no.">
+				</div>
+				<div class="form-group"> Select Item :
+					<select name="items" id="">
+						<option value="a">Select Item for Order</option>
+						<option value="b">Onion Dosa</option>
+						<option value="c">Paneer Tikka</option>
+						<option value="d">Kadai Paneer</option>
+						<option value="e">Delicious Pinni</option>
+						<option value="f">Samosa</option>
+						<option value="g">Burger</option>
+						<option value="h">Noodles</option>
+						<option value="i">Idlies</option>
+						<option value="j">Sweets</option>
+						<option value="k">Puran-poli</option>
+					</select>
+				</div>				
+				<div class="form-group"> Select Quantity :
+					<select name="items" id="" onchange="calculateamount(this.value) " required>
+						<option value="">Select Count</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+					<div class="form-group">
+						Total Amount<input type="text" value="tot_amount" id="tot_amount">
+					</div>
+				</div>				
+							
+				<div class="form-group">
+					Date-Time :<input type="datetime-local" name="phoneno." placeholder="Enter Phone no.">
+				</div>
+				<div class="reset">
+					<input type="reset" value="reset now" style="width:80px;">
+					<button class="btn">Submit</button>
+				</div>
+			</form>
+		</div>
+		<div className="nav_body">
+		  <img
+			class="backgroundimage"
+			src="./images//backgroundimage.PNG"
+			alt="background"
+		  />
+		</div>
+	  </div>
+	  <script>
+		function calculateamount(val){
+			var total_price=val*120;
+			var amount= document.getElementById("tot_amount");
+			amount.value=total_price;
+		}
+	  </script>
+</body>
+</html>
+
